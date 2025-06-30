@@ -6,7 +6,7 @@
 let myName= "Teo";
 console.log(myName);
 
-//Re-assign=> OK, Re-declare=let/var=> Ko thể được vì một con đường k thể có 2 địa chỉ trùng nhau
+//myName= "Ti" =>Re-assign=> OK,let myName= "Ti" =>Re-declare=let/var=> K đc
 //let myName = "Ti";=> Sẽ suất hiện gạch chân đỏ => Phải dùng constant
 const PI_NUMBER = 3.14; //UPPERCASE để chỉ hằng số
 // PI_NUMBER =11 => K THỂ GÁN HẰNG SỐ
@@ -17,7 +17,7 @@ console.log(Number.MIN_VALUE);
 console.log(typeof(1.7976931348623157e+308));
 console.log(Infinity>1.7976931348623157e+308);
 
-//Boolean
+//Boolean k thể được vì một con đường k thể có 2 địa chỉ trùng nhau
 let amIRight =false;
 amIRight =true;
 console.log(amIRight);
