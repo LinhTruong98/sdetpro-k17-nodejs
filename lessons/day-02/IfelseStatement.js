@@ -1,3 +1,4 @@
+const 
 
 //Global block scope
 let isHeOnTime = true;
@@ -10,3 +11,4 @@ if(isHeOnTime){
 console.log("Write a letter");
 
 }
+//== là phép so sánh, = là phép gán, === n
